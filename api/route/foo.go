@@ -1,9 +1,10 @@
 package route
 
 import (
-	"github.com/gin-gonic/gin"
 	"go-svc-tpl/api/dto"
 	"go-svc-tpl/internal/controller"
+
+	"github.com/gin-gonic/gin"
 )
 
 func setupFooController(r *gin.RouterGroup) {
