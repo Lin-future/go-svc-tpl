@@ -1,10 +1,11 @@
 package controller
 
 import (
-	"github.com/gin-gonic/gin"
 	"go-svc-tpl/api/dto"
 	"go-svc-tpl/internal/dao"
 	"go-svc-tpl/internal/dao/model"
+
+	"github.com/gin-gonic/gin"
 )
 
 // >>>>>>>>>>>>>>>>>> Interface  >>>>>>>>>>>>>>>>>>
